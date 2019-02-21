@@ -1,0 +1,139 @@
+body{
+    margin: 0;
+    padding: 0;
+    background: #fff;
+    font-size: sans-serif;
+}
+.container{
+    position: relative;
+    width: 1280px;
+    min-height: 500px;
+    margin: 70px auto 0;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-top: 30px;
+}
+.container .box{
+    position: relative;
+    width: 300px;
+    margin: 10px;
+    box-sizing: border-box;
+    display: inline-block;
+}
+.container .box .imageBox{
+    position: relative;
+    overflow: hidden;
+}
+.container .box .imageBox img{
+    margin-left: -90px;
+    max-width:  180%;
+    transition: transform 2s;
+}
+
+.container .box:hover .imageBox img{
+    transform: scale(1.2);
+}
+
+.container .box .details{
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    bottom: 10px;
+    right:10px;
+    background: rgba(0, 0, 0, .5);
+    transform: scaleY(0);
+    transition: transform .5s;
+    font-weight: bold;
+
+}
+.container .box:hover .details{
+    transform: scaleY(1);
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding-top: 120px;
+}
+.container .box .details a{
+    color: #fff;
+    font-size: 34px;
+    text-decoration: none;
+    
+}
+.container .box .imageBox1{
+    position: relative;
+    overflow: hidden;
+}
+.container .box .imageBox1 img{
+    margin-left: -140px;
+    max-width:  192%;
+    transition: transform 2s;
+}
+
+.container .box:hover .imageBox1 img{
+    transform: scale(1.2);
+}
+.container .box .imageBox2{
+    position: relative;
+    overflow: hidden;
+}
+.container .box .imageBox2 img{
+    margin-left: -30px;
+    max-width:  192%;
+    transition: transform 2s;
+}
+
+.container .box:hover .imageBox2 img{
+    transform: scale(1.2);
+}
+.container .box .imageBox3{
+    position: relative;
+    overflow: hidden;
+}
+.container .box .imageBox3 img{
+    margin-left: -110px;
+    max-width:  191%;
+    transition: transform 2s;
+}
+
+.container .box:hover .imageBox3 img{
+    transform: scale(1.2);
+}
+.container .box .imageBox4{
+    position: relative;
+    overflow: hidden;
+}
+.container .box .imageBox4 img{
+    margin-left: -110px;
+    max-width:  227%;
+    transition: transform 2s;
+}
+
+.container .box:hover .imageBox4 img{
+    transform: scale(1.2);
+}
+.container .box .imageBox5{
+    position: relative;
+    overflow: hidden;
+}
+.container .box .imageBox5 img{
+    margin-left: -110px;
+    max-width:  180%;
+    transition: transform 2s;
+}
+
+.container .box:hover .imageBox5 img{
+    transform: scale(1.2);
+}
+.container .box .imageBox6{
+    position: relative;
+    overflow: hidden;
+}
+.container .box .imageBox6 img{
+    margin-left: -178px;
+    max-width:  221%;
+    transition: transform 2s;
+}
+
+.container .box:hover .imageBox6 img{
+    transform: scale(1.2);
+}
